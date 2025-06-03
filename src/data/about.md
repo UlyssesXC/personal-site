@@ -20,31 +20,39 @@ Communication-robotics & Linux/embedded-systems engineer **pivoting to AI-driven
   Embedded system design,   
   ARM NEON/SIMD (vector acceleration on ARM), CUDA (learning)  
   Robotic: building platforms from scratch(ROS, SDKs, etc), simulation, motion planning & trajectory optimization, kinematics/dynamics modeling, optics engineering  
-  Comm: signal processing & filtering, IoT protocols, 5G/4G/3GPP, embedded/industrial buses (EtherCAT, CAN)  
-
-Technical stack:
-C/C++, Python, Linux & Docker,
-Embedded system design,   
-ARM NEON/SIMD (vector acceleration on ARM), CUDA (learning)  
-Robotic: building platforms from scratch(ROS, SDKs, etc), simulation, motion planning & trajectory optimization, kinematics/dynamics modeling, optics engineering  
-Comm: signal processing & filtering, IoT protocols, 5G/4G/3GPP, embedded/industrial buses (EtherCAT, CAN)  
+  Comm: signal processing & filtering, IoT protocols, 5G/4G/3GPP, embedded buses (EtherCAT, CAN)  
 
 ---
 
 ## What I Build
 
 ### 1. Autonomous Inspection Robots (2023 – 2024)
-![Inspection Robot Demo](public/images/projects/robot_sim.gif)
+<img
+  src="https://github.com/UlyssesXC/personal-site/blob/1a41f98793fb51e44c65b52f8963ca9758a7d1b9/public/images/projects/robot_sim.gif?raw=true"
+  alt="Inspection Robot Simulate"
+  width="30%">
+<img
+  src="https://github.com/UlyssesXC/personal-site/blob/main/public/images/projects/robot_work.gif?raw=true"
+  alt="Product working 1"
+  width="30%">
 
-At a small startup I servered end-to-end ownership as **principal technologist**, **leading the design, verification, software & hardware development, and testing** of two production-grade robotic cells for high-speed visual inspection on production lines.
+<img
+  src="https://github.com/UlyssesXC/personal-site/blob/main/public/images/projects/pneumatic_gripper.gif?raw=true"
+  alt="Product working 2"
+  width="30%">
 
-* Cut manual inspection time by **60 – 80 %** across **5 factories** (customers include major TTI downstream manufacturers).  
-* **Hands-on scope:** system architecture, power/safety circuits, PLC sequencing, robotic-arm motion planning, computer-vision pipelines (YOLO, traditional CV, unsupervised methods) with edge deployment of lightweight models.  
-* **Toolchain mastery:** operated **10 + industrial robot brands** via teach pendants, ROS-Industrial, vendor SDKs, Ethernet/IP, PROFINET & OPC UA.  
-* **Imaging expertise:** line-scan, structured-light 3-D, time-of-flight, hyperspectral — skilled at tailoring optical setups to engineering needs and optimising imaging pipelines.
+<!-- ![Inspection Robot Simulate](https://github.com/UlyssesXC/personal-site/blob/1a41f98793fb51e44c65b52f8963ca9758a7d1b9/public/images/projects/robot_sim.gif?raw=true)
+![Product working 1](https://github.com/UlyssesXC/personal-site/blob/main/public/images/projects/robot_work.gif?raw=true)
+![Product working 2](https://github.com/UlyssesXC/personal-site/blob/main/public/images/projects/pneumatic_gripper.gif?raw=true) -->
+
+
+- At a small startup group I servered end-to-end ownership as principal technologist, **leading the design, verification, software & hardware development, and testing** of two robotic cells for high-speed inspection on production lines.
+<!-- * Cut manual inspection time by **60 – 80 %** across **5 factories** (customers include major TTI downstream manufacturers).   -->
+* **Hands-on scope:** HW/SW system design, robot control, QT HIM, power circuits, PLC, computer-vision pipelines (YOLO, traditional CV, unsupervised methods) with edge deployment of lightweight models.  
+* **Toolchain mastery:** operated **10 + industrial robot families** via teach pendants, ROS, vendor SDKs, Ethernet/IP, PROFINET, etc.  
+* **Imaging expertise:** skilled at tailoring optical setups to engineering needs and optimising imaging pipelines.
 
 ### 2. 5 G PHY Optimisation @ Nokia (2020 – 2022)
-![5G PHY Optimisation](./media/nokia_5g.gif)
 
 Embedded-software engineer accelerating base-station Layer-1 on ARM platforms.
 
@@ -60,4 +68,4 @@ Embedded-software engineer accelerating base-station Layer-1 on ARM platforms.
 
 ---
 
-[**Download my full CV →**](./resume/Chen_Xiangchao_CV.pdf)
+<!-- [**Download my full CV →**](./resume/Chen_Xiangchao_CV.pdf) -->

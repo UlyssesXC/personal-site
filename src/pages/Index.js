@@ -35,16 +35,13 @@ const Index = () => {
 
         <p>
           {' '}
-          You can also check out my{' '}
-          <Link to="/resume">resume</Link>, <Link to="/projects">projects</Link>,{' '}
-          view <Link to="/stats">site statistics</Link>, or{' '}
-          <Link to="/contact">contact</Link> me.
+          You can also download my full resume{' '}
+          <Link to="/resume">here</Link>
+          {/* , <Link to="/projects">projects</Link>,{' '} */}
+          {/* view <Link to="/stats">site statistics</Link>, or{' '}
+          <Link to="/contact">contact</Link> me. */}
         </p>
-        <p>
-          {' '}
-          Source available{' '}
-          <a href="https://github.com/mldangelo/personal-site">here</a>.
-        </p>
+
       </article>
     </Main>
   );

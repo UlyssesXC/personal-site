@@ -24,9 +24,9 @@ const SideBar = () => (
       <p>
         · I&apos;m a Master of Engineering student in ECE at{' '}
         <a href="https://www.eng.uwo.ca/electrical/">Western University</a>.<br />
-        · I’m interested in Embodied Intelligence,<br />
+        · I’m interested in Embodied AI,<br />
         building on my 4 years experience in IoT, 5G, and Industrial Robotics.<br />
-        · I&apos;m seeking opportunities for <strong>RA</strong> positions
+        · I&apos;m seeking opportunities for <strong>Intern</strong>, <strong>RA</strong> positions
         or <strong>PhD</strong> programs in this exciting field.
       </p>
       {/* <ul className="actions">
@@ -47,7 +47,7 @@ const SideBar = () => (
     <section id="footer">
       <ContactIcons />
       <p className="copyright">
-        &copy; Xiangchao Chen <Link to="/">chasec.ee</Link>.
+        &copy; Xiangchao Chen <Link to="/">chasechen.xyz</Link>.
       </p>
     </section>
   </section>
