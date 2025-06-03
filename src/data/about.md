@@ -1,92 +1,63 @@
-# Intro
+## Toward Embodied AI
 
-I am the co-founder and CTO of [Promptfoo](https://promptfoo.dev), where we're building open-source tools to evaluate, find, and fix vulnerabilities in LLMs. Before Promptfoo, I was the VP of Engineering at [SmileID](https://www.usesmileid.com), where I led the development of tools that have helped over 170 million people in Africa gain access to financial services. I also co-founded [Arthena](https://arthena.com) and [Matroid](https://matroid.com).
+I believe:
+**Next leap in Embodied AI = Grounded Vision-Language Models & Multimodal Perception + Rigorous Systems Engineering + HW/SW Co-designed Acceleration.**
 
-In my spare time, I enjoy investing in people and ideas through a [small venture fund](https://skepticalinvestments.biz), focusing on projects with high social impact. If you think I can be helpful to you or your cause, or if you're interested in collaborating, feel free to get in touch.
+I am looking for **Intern**, **Research Assistant**, or **PhD** opportunities to push that convergence forward.  
+Below is what I have done—and am doing—to prepare.
 
-# Some History
+---
 
-- My parents put a computer in my bedroom in 1993 when I was 3. It was an old Tandy that ran MS-DOS. My favorite games were Street Rod 2, Wolfenstein 3D, and Tom and Jerry. It had a mechanical keyboard and a turbo button. To this day, I still don't know what pressing the turbo button really did.
-- We subscribed to AOL in 1995. I still remember installing it from a floppy disk onto our brand-new Packard Bell. It took years for me to send my first email.
-- In the summer of 1996, my uncle purchased [MegaRace](https://en.wikipedia.org/wiki/MegaRace) from [Media Play](https://en.wikipedia.org/wiki/Media_Play) and installed it on my mom's work computer. I might have endangered her business by using her computer too much.
-- At 7, I discovered the mini-games hidden in Microsoft Office. I also beat Minesweeper on expert for the first time.
-- At 8, my parents bought me a Sony Mavica MVC-FD71 digital camera after I stole their SLR one too many times. It could fit 10 images to a floppy disk at a 0.3MP resolution. I still have it, and it still works. I've been taking photographs ever since, now with a Nikon D750, D800, and occasionally with a Mamiya 6II.
-- At 10, I built my first website with Microsoft FrontPage on our Pentium III [Gateway](https://en.wikipedia.org/wiki/Gateway,_Inc.). My website was terrible.
-- I was 11 when I built my first [Tesla Coil](https://en.wikipedia.org/wiki/Tesla_coil) (without my parents' permission). Over the next few years, I built several more, including one of the first audio modulated coils and one of the first DRSSTCs.
-- When I was 12, I set the all-time high record at my local laser tag facility by reverse engineering the charging station and weapon protocols with a photo-resistor, micro-cassette recorder, and a lot of patience. I was unstoppable.
-- At 13, I went to space camp and fell in love. I went back two more times and promised myself that I'd work in space. I've since helped build three generations of satellites and have contributed to two more.
-- At 14, I was almost expelled for finding a backdoor into my high school's file server and telling everyone but the faculty members about it. Later that year, I figured out how to turn off the internet firewall by editing system registry keys. I anonymously shared my work months later.
-- At 16, I participated in a foreign exchange program in Dortmund, Germany. Since then, I've gone back almost every year.
-- 14 - 17, I played a lot of video games. My favorites included Counter-Strike Source, Command and Conquer 3, Halo 2, and Age of Empires II.
-- At 18, in the summer before college, my friends and I started playing [Muggle Quidditch](<https://en.wikipedia.org/wiki/Quidditch_(sport)>). We went on to start over 8 teams in the [International Quidditch Association](https://en.wikipedia.org/wiki/International_Quidditch_Association), including the [Buffalo Quidditch Society](https://www.facebook.com/buffaloquidditch/). At our height, we were ranked third in the IQA. Although I don't play anymore, you can still see pictures of me holding a broom while wearing a chess camp t-shirt on Facebook.
-- At 19, I took my first graduate course and published my first academic paper.
-- At 20, I co-authored a grant to build a satellite and managed a 60+ person team for the next two years. You can read more about that [here](https://ubnl.space/glados/).
+## Quick Facts
+Communication-robotics & Linux/embedded-systems engineer **pivoting to AI-driven embodied intelligence**
 
-Ask me in person for other stories that I'm afraid to share with the internet.
+- **Research interests:**  
+  - Robot manipulation & grasping  
+  - Multimodal / vision-language models for action grounding & large-model planning  
+  - Efficient on-device inference & safe human-robot collaboration  
+- **Technical stack:**  
+  C/C++, Python, Linux & Docker,    
+  Embedded system design,   
+  ARM NEON/SIMD (vector acceleration on ARM), CUDA (learning)  
+  Robotic: building platforms from scratch(ROS, SDKs, etc), simulation, motion planning & trajectory optimization, kinematics/dynamics modeling, optics engineering  
+  Comm: signal processing & filtering, IoT protocols, 5G/4G/3GPP, embedded/industrial buses (EtherCAT, CAN)  
 
-# I Like
+Technical stack:
+C/C++, Python, Linux & Docker,
+Embedded system design,   
+ARM NEON/SIMD (vector acceleration on ARM), CUDA (learning)  
+Robotic: building platforms from scratch(ROS, SDKs, etc), simulation, motion planning & trajectory optimization, kinematics/dynamics modeling, optics engineering  
+Comm: signal processing & filtering, IoT protocols, 5G/4G/3GPP, embedded/industrial buses (EtherCAT, CAN)  
 
-- Running
-- Skiing
-- Sailing and the sea
-- Space
-- Summer
-- [Books](https://www.goodreads.com/mdangelo)
-- Colored pencils ([Faber-Castell Polychromos](https://www.faber-castell.com/products/art-and-graphic/polychromos))
-- Podcasts ([The Daily](https://www.nytimes.com/column/the-daily), [The Ezra Klein Show](https://www.nytimes.com/column/ezra-klein-podcast), [Planet Money](https://www.npr.org/sections/money/), [The Indicator](https://www.npr.org/podcasts/510325/the-indicator-from-planet-money), [This American Life](https://www.thisamericanlife.org/), [99% Invisible](https://99percentinvisible.org/episodes/), [The Economist](http://radio.economist.com/), [Radiolab](https://www.wnycstudios.org/shows/radiolab), [Hidden Brain](https://www.npr.org/series/423302056/hidden-brain), [Inquiring Minds](https://inquiring.show), and others)
-- [Good design](/)
-- [Photography](https://instagram.com/dangelosaurus)
+---
 
-# Travel / Geography
+## What I Build
 
-- I am originally from Buffalo, New York. I have since lived in Palo Alto, Mountain View, San Francisco, Seattle, and New York City.
-- I've been to approximately 50 countries, some of which I have forgotten, many of which I would like to revisit.
-- In 2016, I visited Canada, Ethiopia, Austria, Germany, Belgium, Ireland, Northern Ireland, Italy, Romania, Sweden, Norway, Svalbard, Panama, Costa Rica, Uganda, Japan, and the UAE, mostly in that order.
-- In 2017, I visited Canada, Japan, Denmark, Germany, Sweden, Estonia, Russia, the Netherlands, Belgium, the U.K., Spain, Iceland, France, Switzerland, Ethiopia, and Luxembourg.
-- In 2018, I visited Canada, France, Italy, Israel, and the U.K.
-- In 2019, I visited Canada, England, France, and Switzerland.
-- In 2020, I traveled barely 20 blocks. I stayed in New York and remodeled an apartment.
-- In 2021, I continued remodeling an apartment.
-- In 2022, I switched jobs and visited the UK, France, Greece, Belgium, Luxembourg, Germany, and Kenya.
-- In 2023, I visited France, the UK, Ireland, and Rwanda.
-- I am an Oregon Trail II enthusiast.
+### 1. Autonomous Inspection Robots (2023 – 2024)
+![Inspection Robot Demo](public/images/projects/robot_sim.gif)
 
-# Fun Facts
+At a small startup I servered end-to-end ownership as **principal technologist**, **leading the design, verification, software & hardware development, and testing** of two production-grade robotic cells for high-speed visual inspection on production lines.
 
-- I have a list of thousands of ideas, like creating matching bow ties for cats and humans.
-- I almost always have a sketchbook with me and a [01 Sakura Pigma Micron Pen](https://www.sakuraofamerica.com/product/pigma-micron/).
-- I can't locate every country on a map.
-- I operate a [small angel fund](http://skepticalinvestments.biz/) with terrible returns.
-- I break about 30 traffic laws on a skateboard or [bicycle](https://www.citibikenyc.com/) every single day.
-- I stack-rank coffee shops, restaurants, and every dog I see in New York.
-- I added this page because many people complained that my site was just my resume.
+* Cut manual inspection time by **60 – 80 %** across **5 factories** (customers include major TTI downstream manufacturers).  
+* **Hands-on scope:** system architecture, power/safety circuits, PLC sequencing, robotic-arm motion planning, computer-vision pipelines (YOLO, traditional CV, unsupervised methods) with edge deployment of lightweight models.  
+* **Toolchain mastery:** operated **10 + industrial robot brands** via teach pendants, ROS-Industrial, vendor SDKs, Ethernet/IP, PROFINET & OPC UA.  
+* **Imaging expertise:** line-scan, structured-light 3-D, time-of-flight, hyperspectral — skilled at tailoring optical setups to engineering needs and optimising imaging pipelines.
 
-# I Dream Of
+### 2. 5 G PHY Optimisation @ Nokia (2020 – 2022)
+![5G PHY Optimisation](./media/nokia_5g.gif)
 
-- Inspiring and feeling inspired.
-- Enabling a brighter future for everyone, regardless of political or socioeconomic status.
-- Treating every individual with genuine kindness and respect.
-- Staying curious.
-- Continually improving.
-- You not checking the commit history for earlier drafts of this file.
+Embedded-software engineer accelerating base-station Layer-1 on ARM platforms.
 
-# Websites from People I Admire
+* Implemented & optimised **LDPC / polar decoding, channel estimation, beam-forming** and other physical-layer kernels in C/assembly with ARM NEON & DSP intrinsics, realising **≈ 20 % throughput uplift** under the same power budget.  
+* **From ARM NEON to CUDA — bridging low-level signal-processing optimisation to large-model acceleration:** this journey exposed deep commonalities with GPU & heterogeneous compute; I am now **studying CUDA for large-model deployment & acceleration**, documenting the process in a technical blog series.
 
-- [Alex Peysakhovich](http://alexpeys.github.io/)
-- [Chris Lengerich](http://www.chrislengerich.com/)
-- [Chris Saad](https://www.chrissaad.com/)
-- [Duncan Tomlin](http://duncantomlin.com/)
-- [Ed Kearney](https://edkearney.com/)
-- [Hawley Moore](http://hawleymoore.com/)
-- [Holman Gao](https://golmansax.com/)
-- [Ian Webster](http://ianww.com/)
-- [Johanna Flato](https://www.johannaflato.com/)
-- [Judy Mou](http://www.judymou.com/)
-- [Judy Suh](https://www.judysuh.com/)
-- [Kristina Monakhova](https://kristinamonakhova.com/)
-- [Noah Trueblood](http://notrueblood.com/)
-- [Ruoxi Wang](http://ruoxiw.com/)
-- [Tom Sachs](https://www.tomsachs.org/)
-- [Will Holley](https://willholley.com/)
+---
 
-If we are friends and you feel like you belong on this list, you're probably right. Submit a PR, or ask me, and I'll add you.
+## Education & Awards
+- **M.Eng. in Electrical & Computer Engineering,** Western University — focus on signal processing, filtering, and elective coursework in robotics  
+- **B.Eng. in Electronic Information,** Hangzhou City University (formerly Zhejiang University City College)  
+  - **1st Prize (2018)** & **3rd Prize (2019)** — TI Cup National Undergraduate Electronic Design Contest  
+
+---
+
+[**Download my full CV →**](./resume/Chen_Xiangchao_CV.pdf)
