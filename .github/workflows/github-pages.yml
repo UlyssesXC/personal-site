@@ -1,4 +1,4 @@
-name: Deploy static content to Pages
+name: Deploy static content to GitHub Pages
 
 on:
   push:
@@ -15,12 +15,8 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-22.04
-    timeout-minutes: 10
+  build:
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -31,42 +27,26 @@ jobs:
           node-version-file: ".nvmrc"
           cache: "npm"
 
-      - name: Install
+      - name: Install dependencies
         run: npm ci
 
-      - name: Build and Render
-        shell: bash
-        run: |
-          function retry {
-            local n=1
-            local max=5
-            local delay=1
-            while true; do
-              "$@" && break || {
-                if [[ $n -lt $max ]]; then
-                  ((n++))
-                  echo "Command failed. Attempt $n/$max:"
-                  sleep $delay;
-                else
-                  echo "The command has failed after $n attempts."
-                  return 1
-                fi
-              }
-            done
-          }
-          retry npm run predeploy
+      - name: Build project
+        run: npm run build  # 或者 npm run predeploy 如果你需要 react-snap
         env:
           NODE_ENV: production
-          REACT_APP_GA_TRACKING_ID: UA-68649021-1
 
-      - name: Setup Pages
-        uses: actions/configure-pages@v3
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3   # ✅ 关键更新：由 v2 → v3
+      - name: Upload GitHub Pages artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          path: "build"
+          path: build
 
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
       - name: Deploy to GitHub Pages
-        id: deployment
+        id: deploy
         uses: actions/deploy-pages@v3
