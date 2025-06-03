@@ -27,9 +27,15 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     timeout-minutes: 10
     steps:
+      - name: Preload upload-artifact@v3 to avoid error
+        uses: actions/upload-artifact@v3
+        with:
+          name: dummy
+          path: README.md
+
       - name: Checkout
         uses: actions/checkout@v4
       - name: Setup Node
