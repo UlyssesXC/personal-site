@@ -52,7 +52,7 @@ Communication-robotics & Linux/embedded-systems engineer **pivoting to AI-driven
 * **Toolchain mastery:** operated **10 + industrial robot families** via teach pendants, ROS, vendor SDKs, Ethernet/IP, PROFINET, etc.  
 * **Imaging expertise:** skilled at tailoring optical setups to engineering needs and optimising imaging pipelines.
 
-### 2. 5 G PHY Optimisation @ Nokia (2020 – 2022)
+### 2. 5 G PHY Optimisation @ Nokia (2021 – 2022)
 
 Embedded-software engineer accelerating base-station Layer-1 on ARM platforms.
 
